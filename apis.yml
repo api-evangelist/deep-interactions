@@ -1,8 +1,26 @@
 aid: deep-interactions
+accessModel:
+  pricing: unknown
+  onboarding: approval
+  trial: false
+  try_now: false
+  public: false
+  label: Requires approval
+  confidence: medium
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/deep-interactions.png
 name: Deep Interactions
-description: Deep Interactions is a company surfaced as a portfolio company of y-combinator and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: 'Deep Interactions is a collaborative, humans-in-the-loop AI builder
+  for product teams, launched out of Y Combinator''s Spring 2026 batch. The platform
+  helps teams move from business goals through design and development to a deployed
+  AI product, turning messy ideas, data, and tools into working software in a single
+  afternoon while maintaining code organization and product coherence. It positions
+  itself as the context layer that lets a whole team build in sync — integrating with
+  existing tools such as Slack, Figma, GitHub, Vercel, and Supabase — rather than
+  producing disconnected solo prototypes. The company is currently at a waitlist-only
+  stage and does not yet publish a public API, developer documentation, or SDKs.'
 url: https://raw.githubusercontent.com/api-evangelist/deep-interactions/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,14 +28,39 @@ x-backed-by:
 - y-combinator
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-yc-batch: Spring 2026
+x-yc-launch: https://www.ycombinator.com/launches/QOt-deep-interactions-collaborative-ai-builder-for-teams
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Artificial Intelligence
+- AI Builder
+- Developer Tools
+- Product Development
+- Team Collaboration
+- Low-Code
+- LLM
+- Y Combinator
+- Startup
 apis: []
+common:
+- type: DomainSecurity
+  url: security/deep-interactions-domain-security.yml
+- type: Website
+  url: https://deepinteractions.ai/
+- type: SignUp
+  url: https://form.typeform.com/to/pz4g02vK
+- type: LinkedIn
+  url: https://www.linkedin.com/company/deep-interactions/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
