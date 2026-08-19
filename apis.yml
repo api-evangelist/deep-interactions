@@ -30,7 +30,7 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 x-yc-batch: Spring 2026
 x-yc-launch: https://www.ycombinator.com/launches/QOt-deep-interactions-collaborative-ai-builder-for-teams
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-18'
 tags:
